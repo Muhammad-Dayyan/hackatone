@@ -1,0 +1,20 @@
+#box{
+    margin: 100px 200px 100px 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gold;
+}
+body{
+    background-color: blue;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#submit{
+    margin-left: 250px;
+}

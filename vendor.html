@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Vendor</title>
+</head>
+<body>
+    <h1>VENDOR DASHBOARD</h1>
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>password</th>
+            <th>Activate</th>
+          
+                     </tr>
+        </thead>
+        <tbody id="tbody1">
+          <!--<tr>
+                    <td scope="col">#</td>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Email</td>
+                    <td>Password</td>
+                </tr>-->
+          
+        </tbody>
+      </table>
+</body>
+</html>
+<script src="vendor.js" type="module">
+//     // Import the functions you need from the SDKs you need
+//     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+//     import{ collection, getDocs, doc, updateDoc,getFirestore} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js"
+
+//     // TODO: Add SDKs for Firebase products that you want to use
+//     // https://firebase.google.com/docs/web/setup#available-libraries
+  
+//     // Your web app's Firebase configuration
+//     const firebaseConfig = {
+//       apiKey: "AIzaSyBHG6-Hj5JiX3LX1PUHHzrWPbTIAAd7IWM",
+//       authDomain: "data-base-f6ac2.firebaseapp.com",
+//       projectId: "data-base-f6ac2",
+//       storageBucket: "data-base-f6ac2.appspot.com",
+//       messagingSenderId: "605107890798",
+//       appId: "1:605107890798:web:92c109078716967cda147f"
+//     };
+  
+//     // Initialize Firebase
+//    const app = initializeApp(firebaseConfig);
+//    const db = getFirestore(app);
+// window.addEventListener("load", getAllIUser)
+
+
+// const tableBody = document.getElementById("tbody1")
+// console.log("tableBody", tableBody)
+
+// async function getAllIUser() {
+//     console.log("getAllIUser")
+
+
+//     const docsRef = await getDocs(collection(db, "users"))
+//     docsRef.forEach(function (doc) {
+//         const user = doc.data()
+//         if (user.type !== "vendor") {
+//             console.log("docs", doc.id, user)
+//             const rowUi = `<tr>
+//             <td onclick={getuser()} >${user.name}</td>
+//             <td>${user.age}</td>
+//             <td>${user.email}</td>
+//             <td>${user.password}</td>
+//             <td>${user.accountActivate ? `<div class="form-check form-switch">
+//             <input class="form-check-input" onchange={handleAccountActivation(this)} type="checkbox" id="flexSwitchCheckChecked" checked>
+//           </div>` : `<div class="form-check form-switch">
+//           <input class="form-check-input"  onchange={handleAccountActivation(this)} type="checkbox" id="flexSwitchCheckChecked" >
+//         </div>`
+//                 }</td>
+//              </tr>`
+
+//             tableBody.innerHTML += rowUi
+//         }
+//     })
+
+
+// }
+// function getuser() {
+//     console.log("getuser()")
+// }
+
+
+// async function handleAccountActivation(e) {
+//     console.log("handleAccountActivation", e.checked)
+// }
+// window.handleAccountActivation = handleAccountActivation
+
+//    </script>
